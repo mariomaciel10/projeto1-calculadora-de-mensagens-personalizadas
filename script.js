@@ -1,10 +1,10 @@
-let name = prompt("Digite seu nome")
-let city = prompt("Digite sua cidade")
-let age = prompt("Digite sua idade")
-let profession = prompt("Digite sua profissão")
-let currentYear = prompt("Digite o ano atual")
-let salary = prompt("Digite seu salario")
-let bonus = prompt("Digite o bonus")
+let name = "Pietro"
+let city = "General"
+let age = 15
+let profession = "Alfaiate"
+let currentYear = 2025
+let salary = 2033
+let bonus = 52
 let salaryTotal = Number(salary) + Number(bonus)
 let dateBirth = age - currentYear
 
@@ -22,4 +22,5 @@ Total mensal: ${salaryTotal}
 Total ano: ${salaryTotal * 12}
 Total anual (salário dobrado): ${(salaryTotal * 12) * 2}
 =========================================    
+
     `)
