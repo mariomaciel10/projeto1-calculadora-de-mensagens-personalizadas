@@ -6,7 +6,7 @@ let currentYear = 2025
 let salary = 2033
 let bonus = 52
 let salaryTotal = Number(salary) + Number(bonus)
-let dateBirth = age - currentYear
+let dateBirth = currentYear - age
 
 alert(`
  ========= RELATÓRIO DO USUÁRIO =========
@@ -24,3 +24,4 @@ Total anual (salário dobrado): ${(salaryTotal * 12) * 2}
 =========================================    
 
     `)
+
