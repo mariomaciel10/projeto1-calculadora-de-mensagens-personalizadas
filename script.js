@@ -5,7 +5,7 @@ let profession = "Alfaiate"
 let currentYear = 2025
 let salary = 2033
 let bonus = 52
-let salaryTotal = parseint(salary) + parseInt(bonus)
+let salaryTotal = parseInt(salary) + parseInt(bonus)
 let dateBirth = parseint(currentYear) - parseInt(age)
 
 alert(`
@@ -21,6 +21,7 @@ Bônus: ${bonus}
 Total mensal: ${salaryTotal}
 =========================================
 `)
+
 
 
 
