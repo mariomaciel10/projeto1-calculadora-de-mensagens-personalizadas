@@ -6,7 +6,7 @@ let currentYear = 2025
 let salary = 2033
 let bonus = 52
 let salaryTotal = parseint(salary) + parseInt(bonus)
-let dateBirth = currentYear - age
+let dateBirth = parseint(currentYear) - parseInt(age)
 
 alert(`
  ========= RELATÓRIO DO USUÁRIO =========
@@ -19,10 +19,8 @@ Profissão: ${profession}
 Salário base: ${salary}
 Bônus: ${bonus}
 Total mensal: ${salaryTotal}
-Total ano: ${salaryTotal * 12}
-Total anual (salário dobrado): ${(salaryTotal * 12) * 2}
-=========================================    
+=========================================
+`)
 
-    `)
 
 
