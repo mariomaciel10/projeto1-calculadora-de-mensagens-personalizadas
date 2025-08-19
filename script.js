@@ -5,7 +5,7 @@ let profession = "Alfaiate"
 let currentYear = 2025
 let salary = 2033
 let bonus = 52
-let salaryTotal = Number(salary) + Number(bonus)
+let salaryTotal = parseint(salary) + parseInt(bonus)
 let dateBirth = currentYear - age
 
 alert(`
@@ -24,4 +24,5 @@ Total anual (salário dobrado): ${(salaryTotal * 12) * 2}
 =========================================    
 
     `)
+
 
