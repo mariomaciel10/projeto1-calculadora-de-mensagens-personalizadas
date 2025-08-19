@@ -6,7 +6,7 @@ let currentYear = 2025
 let salary = 2033
 let bonus = 52
 let salaryTotal = parseInt(salary) + parseInt(bonus)
-let dateBirth = parseint(currentYear) - parseInt(age)
+let dateBirth = parseInt(currentYear) - parseInt(age)
 
 alert(`
  ========= RELATÓRIO DO USUÁRIO =========
@@ -21,6 +21,7 @@ Bônus: ${bonus}
 Total mensal: ${salaryTotal}
 =========================================
 `)
+
 
 
 
